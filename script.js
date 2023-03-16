@@ -9,8 +9,8 @@ function letterCombinations(input_digit) {
     "7": ["p", "q", "r", "s"],
     "8": ["t", "u", "v"],
     "9": ["w", "x", "y", "z"],
-    "0": ["0"],
-    "1": ["1"],
+    // "0": ["0"],
+    // "1": ["1"],
   };
  function generateCombinations(prefix, remainingDigits) {
     // Base case: we've added all digits
